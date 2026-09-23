@@ -7,8 +7,18 @@ function sub(a, b) {
   return a - b;
 }
 
+function multiply(a, b) {
+  if (a < 0 || b < 0) throw new Error("pls check numbers");
+  return a * b;
+}
+
 add(5, 5);
 add(10, 5);
 add(100, 5);
 
 sub(5, 1);
+
+multiply(5, 4);
+multiply(34, 4);
+multiply(12, 45);
+multiply(8, 45);
