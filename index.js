@@ -19,3 +19,4 @@ sub(5, 1);
 
 multiply(5, 4);
 multiply(34, 4);
+multiply(12, 45);
